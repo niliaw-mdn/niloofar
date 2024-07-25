@@ -1,0 +1,53 @@
+body{
+    background-image: url("/pic/backgrnd.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+
+    
+}
+ul li{
+    list-style-type: none;
+    margin-left: 40px;
+    cursor: pointer;
+      
+}
+
+ul li:first-child{
+    margin-right: 65px;
+    color: black;
+    background-color: white;
+    border-radius: 60px;
+    width: 150px;
+    height: 50px;
+    padding-left: 30px;
+    padding-top: 25px;
+    
+
+}
+
+ul{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    font-weight: 800;
+    font-size: 25px;
+    color: white;
+
+}
+
+.msg{
+    display: flex;
+    justify-content: center;
+    margin-top: 280px;
+    font-size: 100px;
+
+}
+
+
